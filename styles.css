@@ -1,0 +1,79 @@
+body, html{
+  height: 100%
+}
+html{
+  background: url('images/background.png') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+body{
+  margin: 0px;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .button{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+/*.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}*/
+.blueFadeDancer{
+  border:20px solid blue;
+  border-radius:20px;
+  position:absolute;
+}
+.green{
+  border:20px dotted green;
+  border-radius:20px;
+  position:absolute;
+}
+.spongebob{
+  width: 300px;
+  height: 177px;
+  position:absolute;
+  background-image: url('images/spongebob2.gif');
+  background-size: cover;
+}
+.patrick{
+  width:225px;
+  height:225px;
+  position:absolute;
+  background-image: url('images/patrick3.gif');
+  background-size: cover;
+}
+.celebration{
+  left:25%;
+  bottom: 5%;
+  width: 500px;
+  height: 364px;
+  position: absolute;
+  background-image: url('images/spongebobPatrick.gif');
+}
+.squidward{
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  background-image: url('images/squidward.gif');
+  background-size: cover;
+}
+.sandy{
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  background-image: url('images/sandy.gif');
+  background-size: cover;
+}
